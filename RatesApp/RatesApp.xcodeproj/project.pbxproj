@@ -12,7 +12,6 @@
 		A6E093CA21313C9100284563 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093C921313C9100284563 /* MainViewController.swift */; };
 		A6E093CF21313C9200284563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E093CE21313C9200284563 /* Assets.xcassets */; };
 		A6E093D221313C9200284563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E093D021313C9200284563 /* LaunchScreen.storyboard */; };
-		A6E093DA21313CAC00284563 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6E093D921313CAC00284563 /* README.md */; };
 		A6E093DC21313CF000284563 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A6E093DB21313CF000284563 /* Podfile */; };
 		A6E093E1213142C900284563 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093E0213142C900284563 /* Currency.swift */; };
 		A6E093EC21314B9100284563 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093EB21314B9100284563 /* WebService.swift */; };
@@ -20,6 +19,7 @@
 		A6E093F4213182C700284563 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093F3213182C700284563 /* APIClient.swift */; };
 		A6E093F62131833600284563 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093F52131833600284563 /* Rate.swift */; };
 		A6E093F82131996200284563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E093F72131996200284563 /* Main.storyboard */; };
+		A6E093FA2131B96900284563 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6E093F92131B96900284563 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,6 @@
 		A6E093CE21313C9200284563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E093D121313C9200284563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6E093D321313C9200284563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6E093D921313CAC00284563 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A6E093DB21313CF000284563 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6E093E0213142C900284563 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		A6E093EB21314B9100284563 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		A6E093F3213182C700284563 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		A6E093F52131833600284563 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 		A6E093F72131996200284563 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A6E093F92131B96900284563 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4FF8DF2A48941D88F7CBD51 /* Pods-RatesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatesApp/Pods-RatesApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +74,7 @@
 		A6E093BB21313C9100284563 = {
 			isa = PBXGroup;
 			children = (
-				A6E093D921313CAC00284563 /* README.md */,
+				A6E093F92131B96900284563 /* README.md */,
 				A6E093DB21313CF000284563 /* Podfile */,
 				A6E093C621313C9100284563 /* RatesApp */,
 				A6E093C521313C9100284563 /* Products */,
@@ -203,9 +203,9 @@
 			files = (
 				A6E093DC21313CF000284563 /* Podfile in Resources */,
 				A6E093F82131996200284563 /* Main.storyboard in Resources */,
+				A6E093FA2131B96900284563 /* README.md in Resources */,
 				A6E093D221313C9200284563 /* LaunchScreen.storyboard in Resources */,
 				A6E093CF21313C9200284563 /* Assets.xcassets in Resources */,
-				A6E093DA21313CAC00284563 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
