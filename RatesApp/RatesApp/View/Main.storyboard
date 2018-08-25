@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KzY-eF-dt0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="RSa-8B-uzb">
+            <objects>
+                <viewController id="KzY-eF-dt0" customClass="MainViewController" customModule="RatesApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NrO-3h-ZCh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="D02-qd-6Q3">
+                                <rect key="frame" x="16" y="93" width="343" height="200"/>
+                                <date key="date" timeIntervalSinceReferenceDate="556898698.97618997">
+                                    <!--2018-08-25 14:04:58 +0000-->
+                                </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                                    <!--1970-01-01 11:00:00 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="1167562800">
+                                    <!--2037-12-31 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currencies rates on date:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrx-Um-yVn">
+                                <rect key="frame" x="16" y="56" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DCq-II-nLa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD: 67.54" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0l-sl-4hP">
+                                <rect key="frame" x="16" y="308.5" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="yb8-65-ldy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EUR: 74.53" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3A-RM-x0f">
+                                <rect key="frame" x="16" y="374.5" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OvV-UF-8yj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96068286899999999" green="0.97240424160000005" blue="0.98430013660000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hrx-Um-yVn" firstAttribute="top" secondItem="rCe-hF-cUT" secondAttribute="top" constant="36" id="4CG-SA-w7g"/>
+                            <constraint firstItem="D02-qd-6Q3" firstAttribute="leading" secondItem="rCe-hF-cUT" secondAttribute="leading" constant="16" id="4yO-kz-9kj"/>
+                            <constraint firstItem="K0l-sl-4hP" firstAttribute="leading" secondItem="rCe-hF-cUT" secondAttribute="leading" constant="16" id="53B-yH-cBM"/>
+                            <constraint firstItem="K0l-sl-4hP" firstAttribute="centerY" secondItem="NrO-3h-ZCh" secondAttribute="centerY" id="5so-8t-LyR"/>
+                            <constraint firstItem="rCe-hF-cUT" firstAttribute="trailing" secondItem="D02-qd-6Q3" secondAttribute="trailing" constant="16" id="7OX-6t-uyj"/>
+                            <constraint firstItem="K0l-sl-4hP" firstAttribute="top" secondItem="D02-qd-6Q3" secondAttribute="bottom" constant="16" id="RFw-3B-m5T"/>
+                            <constraint firstItem="rCe-hF-cUT" firstAttribute="trailing" secondItem="j3A-RM-x0f" secondAttribute="trailing" constant="16" id="Zye-7X-ejX"/>
+                            <constraint firstItem="D02-qd-6Q3" firstAttribute="top" secondItem="hrx-Um-yVn" secondAttribute="bottom" constant="16" id="cEb-Fu-TmA"/>
+                            <constraint firstItem="j3A-RM-x0f" firstAttribute="leading" secondItem="rCe-hF-cUT" secondAttribute="leading" constant="16" id="e6e-qH-UZ6"/>
+                            <constraint firstItem="j3A-RM-x0f" firstAttribute="top" secondItem="K0l-sl-4hP" secondAttribute="bottom" constant="16" id="nmb-oO-dKu"/>
+                            <constraint firstItem="hrx-Um-yVn" firstAttribute="leading" secondItem="rCe-hF-cUT" secondAttribute="leading" constant="16" id="oLB-2j-W6q"/>
+                            <constraint firstItem="rCe-hF-cUT" firstAttribute="trailing" secondItem="hrx-Um-yVn" secondAttribute="trailing" constant="16" id="sgZ-mZ-J3x"/>
+                            <constraint firstItem="rCe-hF-cUT" firstAttribute="trailing" secondItem="K0l-sl-4hP" secondAttribute="trailing" constant="16" id="yNQ-8x-6kq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rCe-hF-cUT"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="D02-qd-6Q3" id="rI5-sB-On7"/>
+                        <outlet property="eurLabel" destination="j3A-RM-x0f" id="5fw-G9-QCv"/>
+                        <outlet property="usdLabel" destination="K0l-sl-4hP" id="6uN-eG-70k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNA-j3-f0v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.80000000000000004" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+</document>

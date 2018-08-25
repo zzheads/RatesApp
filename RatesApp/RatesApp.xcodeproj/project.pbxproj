@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE13FCDE3052910DD0E1B79 /* Pods_RatesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6819CB7B99072ECB34E30F /* Pods_RatesApp.framework */; };
+		A6E093C821313C9100284563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093C721313C9100284563 /* AppDelegate.swift */; };
+		A6E093CA21313C9100284563 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093C921313C9100284563 /* MainViewController.swift */; };
+		A6E093CF21313C9200284563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E093CE21313C9200284563 /* Assets.xcassets */; };
+		A6E093D221313C9200284563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E093D021313C9200284563 /* LaunchScreen.storyboard */; };
+		A6E093DA21313CAC00284563 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A6E093D921313CAC00284563 /* README.md */; };
+		A6E093DC21313CF000284563 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A6E093DB21313CF000284563 /* Podfile */; };
+		A6E093E1213142C900284563 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093E0213142C900284563 /* Currency.swift */; };
+		A6E093EC21314B9100284563 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093EB21314B9100284563 /* WebService.swift */; };
+		A6E093F021314CE800284563 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093EF21314CE800284563 /* APIError.swift */; };
+		A6E093F4213182C700284563 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093F3213182C700284563 /* APIClient.swift */; };
+		A6E093F62131833600284563 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E093F52131833600284563 /* Rate.swift */; };
+		A6E093F82131996200284563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E093F72131996200284563 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E6819CB7B99072ECB34E30F /* Pods_RatesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667A716E7B0D656B5962BD1E /* Pods-RatesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RatesApp/Pods-RatesApp.release.xcconfig"; sourceTree = "<group>"; };
+		A6E093C421313C9100284563 /* RatesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E093C721313C9100284563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6E093C921313C9100284563 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A6E093CE21313C9200284563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E093D121313C9200284563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6E093D321313C9200284563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E093D921313CAC00284563 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6E093DB21313CF000284563 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E093E0213142C900284563 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		A6E093EB21314B9100284563 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		A6E093EF21314CE800284563 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		A6E093F3213182C700284563 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A6E093F52131833600284563 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		A6E093F72131996200284563 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C4FF8DF2A48941D88F7CBD51 /* Pods-RatesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatesApp/Pods-RatesApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E093C121313C9100284563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE13FCDE3052910DD0E1B79 /* Pods_RatesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0709E8130307E2CB6741CB18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E6819CB7B99072ECB34E30F /* Pods_RatesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		306513077CC76BC4F631B268 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FF8DF2A48941D88F7CBD51 /* Pods-RatesApp.debug.xcconfig */,
+				667A716E7B0D656B5962BD1E /* Pods-RatesApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6E093BB21313C9100284563 = {
+			isa = PBXGroup;
+			children = (
+				A6E093D921313CAC00284563 /* README.md */,
+				A6E093DB21313CF000284563 /* Podfile */,
+				A6E093C621313C9100284563 /* RatesApp */,
+				A6E093C521313C9100284563 /* Products */,
+				306513077CC76BC4F631B268 /* Pods */,
+				0709E8130307E2CB6741CB18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E093C521313C9100284563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093C421313C9100284563 /* RatesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E093C621313C9100284563 /* RatesApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093EA21314B8500284563 /* API */,
+				A6E093DF21313D8B00284563 /* View */,
+				A6E093DE21313D8400284563 /* Helpers */,
+				A6E093DD21313D7D00284563 /* Model */,
+			);
+			path = RatesApp;
+			sourceTree = "<group>";
+		};
+		A6E093DD21313D7D00284563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093E0213142C900284563 /* Currency.swift */,
+				A6E093F52131833600284563 /* Rate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6E093DE21313D8400284563 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093C721313C9100284563 /* AppDelegate.swift */,
+				A6E093D321313C9200284563 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A6E093DF21313D8B00284563 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093C921313C9100284563 /* MainViewController.swift */,
+				A6E093CE21313C9200284563 /* Assets.xcassets */,
+				A6E093D021313C9200284563 /* LaunchScreen.storyboard */,
+				A6E093F72131996200284563 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6E093EA21314B8500284563 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A6E093EB21314B9100284563 /* WebService.swift */,
+				A6E093F3213182C700284563 /* APIClient.swift */,
+				A6E093EF21314CE800284563 /* APIError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E093C321313C9100284563 /* RatesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E093D621313C9200284563 /* Build configuration list for PBXNativeTarget "RatesApp" */;
+			buildPhases = (
+				90A7A44A9BC52A3B47F0AA26 /* [CP] Check Pods Manifest.lock */,
+				A6E093C021313C9100284563 /* Sources */,
+				A6E093C121313C9100284563 /* Frameworks */,
+				A6E093C221313C9100284563 /* Resources */,
+				1E2A35EBC67977153AD4AD0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatesApp;
+			productName = RatesApp;
+			productReference = A6E093C421313C9100284563 /* RatesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E093BC21313C9100284563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Алексей Папин";
+				TargetAttributes = {
+					A6E093C321313C9100284563 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A6E093BF21313C9100284563 /* Build configuration list for PBXProject "RatesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E093BB21313C9100284563;
+			productRefGroup = A6E093C521313C9100284563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E093C321313C9100284563 /* RatesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E093C221313C9100284563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E093DC21313CF000284563 /* Podfile in Resources */,
+				A6E093F82131996200284563 /* Main.storyboard in Resources */,
+				A6E093D221313C9200284563 /* LaunchScreen.storyboard in Resources */,
+				A6E093CF21313C9200284563 /* Assets.xcassets in Resources */,
+				A6E093DA21313CAC00284563 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E2A35EBC67977153AD4AD0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RatesApp/Pods-RatesApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatesApp/Pods-RatesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A7A44A9BC52A3B47F0AA26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RatesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E093C021313C9100284563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E093E1213142C900284563 /* Currency.swift in Sources */,
+				A6E093F62131833600284563 /* Rate.swift in Sources */,
+				A6E093F4213182C700284563 /* APIClient.swift in Sources */,
+				A6E093CA21313C9100284563 /* MainViewController.swift in Sources */,
+				A6E093EC21314B9100284563 /* WebService.swift in Sources */,
+				A6E093C821313C9100284563 /* AppDelegate.swift in Sources */,
+				A6E093F021314CE800284563 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E093D021313C9200284563 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E093D121313C9200284563 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E093D421313C9200284563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6E093D521313C9200284563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E093D721313C9200284563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FF8DF2A48941D88F7CBD51 /* Pods-RatesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RatesApp/Helpers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Open-solutions.RatesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E093D821313C9200284563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667A716E7B0D656B5962BD1E /* Pods-RatesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/RatesApp/Helpers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Open-solutions.RatesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E093BF21313C9100284563 /* Build configuration list for PBXProject "RatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E093D421313C9200284563 /* Debug */,
+				A6E093D521313C9200284563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E093D621313C9200284563 /* Build configuration list for PBXNativeTarget "RatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E093D721313C9200284563 /* Debug */,
+				A6E093D821313C9200284563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E093BC21313C9100284563 /* Project object */;
+}
